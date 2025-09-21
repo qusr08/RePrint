@@ -1,0 +1,141 @@
+🧬 MOD LIST – v2.9 (Proto-type Ready)
+
+Mod lines(21) 
+-Breaker: Finisher dmg mult. Threshold
+-Ascension: Starter dmg mult. Threshold
+-Combo: Starter dmg mult. Starter sequencing
+-Gambit: Random damage mult
+-Drive: Chain gain based off action use
+-Twitch: Chain gain pre-finisher 
+-Chain spark/accel: Chain gain on combat start  
+-Add/mult: Passive Chain gain 
+-ReChain: Chain Refund
+-Imaging: Chain protection 
+-Kinetic: Random dmg on Action hits 
+-Vital: Max hp increase 
+-Pocket: Charge gain
+-Sequence: AP gain
+-Overclock: Oc gain (heated finisher/opener, etc) 
+-Echo: Action Repetition 
+-Mark: Marked targets
+-Flow: Passive Dodge gain 
+-Phase: Dodge gain on Action use
+-Programming: AP reward on action sequencing  
+-Shatter: capitalize off shield break
+
+When mods are applied:
+A. Start of battle
+B. When hitting an enemy
+	- When breaking an enemy's shield
+C. When overclocking
+E. When using an attack
+	- starter or finisher
+F. Start of turn
+G. When taking damage
+	- Prevent chain reset
+H. End of turn
+
+Dev notes
+-Mods that say "#-#" rolls randomly between the range, for example, Chain Spark randomly grants 1, 2, or 3 chain at battle start
+-More notes under mods 
+
+⬜ COMMON MODS 
+A 1. Chain Spark – Start each battle with 1-3 Chain.
+A 9. Ruthless Accelerator – Deal ×1.5 dmg the first round of combat.
+A 13. Init Sequence – Gain 1 AP for the first turn of combat.
+A 22. Init-Stasis- At the start of combat, a random enemy gains Stasis (1 turn).
+A 25. Hypovolemia - The threshold to trigger Hemorrhage on enemies is reduced by 2 Bleed. 
+
+B 2. Chain Array – When you hit two or more enemies per turn, gain 2 Chain per unique enemy hit.
+	→ ex. If the player hits three different enemies, they would gain 6 Chain instantly 
+B 6. Shatter Protocol - Whenever you break an enemy's Shield, gain 5 Chain.
+B 7. Shatter Prey - Whenever you break an enemy's Shield, deal x1.5 dmg to that enemy for the next (2) turns.
+B 20. Kinetic Surge – Each time you deal dmg, deal 1–3 dmg to a random enemy.
+B 21. Kinetic Trigger- Mark a random enemy each turn. Each time this enemy takes damage, deal 1-3 dmg to a random enemy. 
+
+C 3. Clockwork – Gain 1 Chain the first time an action is Overclocked each turn. 
+	→ If the player undoes the Overclock, Chain is revoked 
+
+E 5.ReChain – Finishers that use 10 or more Chain return 25% of the amount used to your Chain pool. Once per combat.
+E 10. Heated Opener – The first Starter used in combat is automatically Overclocked.
+E 11. Heated Finisher – The first Finisher used in combat is automatically Overclocked.
+E 18. Twitch Coil - Finishers gain 1-3 Chain on use. 
+	→ The Chain gained from this mod is rolled after the Player commits actions, but is immediately applied to the Finisher being used. The idea being that the Player won't know how much Chain they get until after committing. 
+E 24. Combo Starter – The second hit from Starters and all following hits from Starters deal ×2 damage this turn.  
+
+F 8. Jitter Coil – At the start of each turn, randomly Overclock one of your equipped actions.
+F 16. Bounty – At the start of each turn, mark a random enemy. If the marked enemy is killed this turn, gain 15–25 Zenny. (25% chance to activate each turn if only one enemy is present. **Can use hidden percentages from player**)
+F 17. Circuit Break – Finishers that use 10 or more Chain deal ×1.25 total damage.
+F 19. Black Sheep - When outnumbered, deal x1.15 dmg per enemy in active combat. 
+F 23. Gambit Chip — Deal ×1.00–×1.35 damage. 
+	→ The multiplier is re-rolled every turn and applies to all actions for that turn. In other words, it does not roll a new multiplier value for each individual action. 
+	
+G 4. Ghost Chain – Gain 1 Chain for every 2 damage dodged 
+G 12. Fragile Image – Create an Image that prevents Chain reset when taking damage. Break mod on use.
+G 15. Reflex - Whenever you take dmg from a direct attack, gain +2 Chain and +3 Dodge on your next turn 
+
+H 14. Still Body - Remove 1 negative Status Effect per unused AP. Gain 2 chain per removed Status Effect.  (NEW in v2.7)
+
+
+🟩 UNCOMMON MODS 
+1. Chain Add – If you have Chain at the end of your turn, gain 2 additional Chain.
+2. Chain Accelerator - Start combat with 3-5 Chain. 
+3. Twitch Actuator  - Finishers gain 2-5 Chain on use. 
+4. UN-Drive – Uncommon+ Actions generate +2 Chain.
+	→ The "+," here means Uncommon actions and beyond, so Rare, Ethereal, and Mythic actions benefit from this mod 
+5. 7th Ascent – While you have 7+ Chain, Starters deal ×1.5 damage.
+6. Precision Break – Finishers that use 20 or more Chain, deal ×1.45 total damage.
+7. Z-Staking – Gain 10% interest on Zenny after a win (max +30).
+8. Mark Prey – 25% chance each turn to Mark a random enemy. Deal ×1.25 damage to the marked target.
+9. Shadow Fade – Finishers that use 12 or more chain, gain 3-4 Dodge.
+	→ Dodge gained from this mod is applied at the start of the following turn
+10. Fire Starter – The first Overclocked Starter you use each turn is automatically repeated. 15% chance to gain 2 Burn.
+11. Heatsink - Every other turn, Mark a random enemy, the first attack action against this enemy is overclocked for free. 
+	→ I'm imagining that the Overclock kicks in after the Player locks in their target selection 
+12. Momentum - Whenever you Deflect all direct damage toward you, gain 1-4 dodge next turn. Increase this amount by 1 each time all direct damage is dodged this way. Resets after combat, 
+13. Deflect Sys - Deflect deals 25% of each hit to all enemies. 
+14. Kinetic Burst - Each time you deal dmg to an enemy, deal 1–4 dmg to a random enemy.
+15. Adv. Programming- Whenever you use two different attack actions, the next Utility action you use is automatically overclocked.
+16. Gambit Engine — Deal ×1.05–×1.50 damage. 
+17. Pain Converter - +5 max hp. Each time you take direct damage, increase this amount by 1. 
+18. Prismatic Image - The first time you take direct damage in combat doesn't reset chain. +10 max hp
+	→ Becomes inactive once its used. Refreshes each combat. 
+19. Vital Uplink - Increase Max Hp by 12-20. Roll on install. 
+20. Combo Engine – The third hit from Starters and all following hits from Starters deal ×3 damage this turn.  
+21. Flow State – Gain 2–4 Dodge at the start of each turn. 
+22. Blood Bath - Start combat with 5 Bleed. All enemies start combat with 5 Bleed. 
+23. Blood Flow - Whenever you or a enemy gains bleed, gain 2 Dodge(Instance based, not per stack). (NEW in v2.6).
+24. Blood Pulse - Hemorrhage deals 7% additional damage. 
+25. Phase Rush – Whenever you hit twice with Starter actions, gain 3-4 Dodge.
+
+
+
+🟦 RARE MODS 
+1. Chain Mark - Mark a random enemy each turn. Gain 2 chain each time this enemy takes damage from Starter Actions. Gain 5 Chain if this enemy dies from a Finisher. 
+	→ This can stack if both Starters are used on the Enemy that also dies from a Finisher
+2. Chain Mult – If you have Chain at end of your turn, gain ×1.25 your current Chain.
+3. R-Drive – Rare+ Actions generate +4 Chain.
+4. Head Hunter – Gain +2 Chain for each Overkill obtained.
+5. Bone Collector - Each overkill stack earned gains x1.15 damage until the end of combat.
+6. ReKill – Finishers that use 14 or more Chain return 50% of the amount to your Chain pool. Once per combat. 
+7. Trigger Happy - Performs a random Starter Action for free.
+8. Hyper Sequence – After using four Starters in a single turn, gain +1 AP next turn. Activates once per turn. 
+9. 12th Ascent – While you have 12+ Chain, Starters deal ×2.25 damage.
+10. Echo Trigger – The first action each battle is automatically repeated. 
+11. Fractal Image – Create an Image that prevents Chain reset when taking damage. 1 out of 4 chance to break mod on use. 
+12. Z-Link - Deal ×1.02 damage per 20 Zenny held. No cap (NEW in v2.6 **NEEDS TESTING**)
+13. Death Tax - Overkills grant ×1.25 more Zenny. 
+14. Execution Break – Finishers that use 30 or more Chain, deal ×1.85 total damage. 
+15. Pocket Assassin - Whenever you obtain Overkill, gain +1 to charge actions. Charges gained this way don't expire after battle.
+16. Kinetic Frenzy - Each time you deal dmg, deal 1–5 dmg to a random enemy. 
+17. Ex. Programming- Whenever you use three different attack actions, the next action you use costs -1AP and has no cooldown. 
+18. Gambit Core - Deal ×1.15–×1.70 damage. 
+19. Vital Imaging - +10 max hp. Increase this amount by 5 each time an Image is destroyed. 
+20. Dimensional Pocket - Whenever you add charges to actions, add an additional charge.
+21. Chain Flow – While you have 12+ Chain, gain 3-6 Dodge at turn start. 
+22. Ghost Fade – Finishers that use 22 or more chain, gain 7-10 Dodge. If used on the last turn of battle, Dodge gained this way persists into next battle.
+23. Flow Machine – Whenever you achieve a Perfect Dodge, increase the maximum Dodge value of a random Dodge-based mod or Utility Action by 1.
+24. Blood Sense – Deal ×1.05 additional damage for each Bleed on the enemy. 
+	→ Also, Triggers with Hemorrhage so that it deals x1.5 dmg on proc
+
+

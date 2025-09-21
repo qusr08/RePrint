@@ -1,0 +1,186 @@
+🗡️💥🌀ACTION LIST v2.91: PROTOTYPE 1 
+
+
+Dev Notes:
+-v2.91 introduces "Core" and "Advanced" Categories 
+
+-Action types: 
+1. Starter: Core/Adv
+2. Finisher: Core/Adv
+3. Utility: Core/Adv
+4. Special Actions 
+
+=========================================================
+🗡️ STARTER ACTIONS 
+=========================================================
+
+**Core Starter Actions have no cooldown 
+**Advanced Starter Actions gain 1 cooldown per manual Overclock
+
+CORE STARTERS 
+
+1. Quick Slash – 1 AP 
+   • ⭐ Base: 6 dmg, +1 Chain
+   • 1★ (1 OC): 8 dmg, +2 Chain
+   • 2★ (2 OC): 12 dmg, +3 Chain
+   • 3★ (3 OC): 16 dmg, +4 Chain
+   • 4★ (4 OC): 20 dmg, +6 Chain. If this is your first action this turn, retrigger Quick Slash once (ignores cooldown).
+
+1.5 2x Slash – 1 AP 
+   • ⭐ Base: 2x2 dmg, +2 Chain 
+   • 1★ (1 OC): 3×2 dmg, +3 Chain
+   • 2★ (2 OC): 4×2 dmg, +5 Chain
+   • 3★ (3 OC): 6×2 dmg, +7 Chain
+   • 4★ (4 OC): 7×2 dmg, +10 Chain 
+
+2. Heavy Slash – 1 AP(fringe adv action?) 
+   • ⭐ Base: 8–10 dmg
+   • 1★ (1 OC): 14–17 dmg
+   • 2★ (2 OC): 22–28 dmg
+   • 3★ (3 OC): 35–40 dmg
+   • 4★ (4 OC): 55 dmg. If used as the final action of your turn, deal x1.5 dmg.
+
+7. Kunai – 0 AP, 3 Charges per battle (Charge-Based, No Cooldown)
+   • ⭐ Base: 7 dmg, +1 Chain
+   • 1★ (1 OC): 14 dmg, +2 Chain
+   • 2★ (2 OC): 21 dmg, +3 Chain
+   • 3★ (3 OC): 28 dmg, +4 Chain
+   • 4★ (4 OC): 35 dmg, +5 Chain. This Kunai ignores all Dodge and Shields. 33% chance to recover each Kunai (once per turn).
+
+
+ADV STARTERS 
+
+3. Hyper Slash – 1 AP
+   • ⭐ Base: 2×3 dmg, +2-3 Chain (Hits twice)
+   • 1★ (1 OC): 2×4 dmg, +4-5 Chain
+   • 2★ (2 OC): 2×7 dmg, +7-9 Chain
+   • 3★ (3 OC): 2×12 dmg, +12-15 Chain
+   • 4★ (4 OC): 3×14 dmg, +15-18 Chain (Hits three times). If all hits target the same enemy and that enemy dies, gain +15 Chain
+
+4. Arc Blade – 1 AP (AoE)
+   • ⭐ Base: 7 dmg (AoE), +1 Chain per enemy hit
+   • 1★ (1 OC): 12 dmg (AoE), +2 Chain per enemy hit
+   • 2★ (2 OC): 18 dmg (AoE), +3 Chain per enemy hit
+   • 3★ (3 OC): 24 dmg (AoE), +4 Chain per enemy hit
+   • 4★ (4 OC): 24 dmg (AoE), +4 Chain per enemy hit. Retrigger for each enemy hit. 
+
+5. Rand() Blade – 1 AP (Random Hits)
+   • ⭐ Base: 1–3 hits, 3 dmg each, +1 Chain per hit
+   • 1★ (1 OC): 2–4 hits, 4 dmg each, +2 Chain per hit
+   • 2★ (2 OC): 2–5 hits, 6 dmg each, +2 Chain per hit
+   • 3★ (3 OC): 3–6 hits, 7 dmg each, +3 Chain per hit
+   • 4★ (4 OC): 4–8 hits, 8 dmg each, +4 Chain per hit. If you roll max hits (8), immediately retrigger Rand() Blade (indefinite).
+
+6. Lacerate (DOT, only one installed instance of Lacerate can be active on a single enemy. If another Lacerate is installed, they can be stacked on a single enemy).
+   • ⭐ Base: Inflict 4–6 Bleed per turn for 3 turns (Ignores Dodge/Shield)
+   • 1★ (1 OC): Inflict 6–8 Bleed per turn for 3 turns
+   • 2★ (2 OC): Inflict 8–10 Bleed per turn for 4 turns
+   • 3★ (3 OC): Inflict 12–14 Bleed per turn for 4 turns
+   • 4★ (4 OC): Inflict 15–18 Bleed per turn for 4 turns. 
+
+7. Kunai – 0 AP, 3 Charges per battle (Charge-Based, No Cooldown)
+   • ⭐ Base: 3 dmg, +1 Chain
+   • 1★ (1 OC): 6 dmg, +2 Chain
+   • 2★ (2 OC): 9 dmg, +3 Chain
+   • 3★ (3 OC): 12 dmg, +4 Chain
+   • 4★ (4 OC): 16 dmg, +5 Chain. This Kunai ignores all Dodge and Shields. 33% chance to recover each Kunai (once per turn).
+
+
+=====================================
+💥 FINISHER ACTIONS (v2.9)
+=====================================
+
+**Core Finishers have a 1 turn cooldown by default, +1 turn cooldown per manual Overclock 
+**Adv Finisher Actions have a 2 turn cooldown by default, +1 turn cooldown per manual Overclock. 
+
+CORE 
+
+1. Rift Cut – 2 AP (Chain Finisher)
+   • ⭐ Base: 4 dmg per Chain (spends all Chain)
+   • 1★ (1 OC): 5 dmg per Chain
+   • 2★ (2 OC): 7 dmg per Chain
+   • 3★ (3 OC): 10 dmg per Chain, +2 dmg per Shadow Image active
+   • 4★ (4 OC): 13 dmg per Chain, +4 dmg per Shadow Image active
+
+ADVANCED 
+
+2. Flurry – 2 AP (Multi-Hit Chain Finisher)
+   • ⭐ Base: 3–5 dmg per Chain (spends all Chain)
+   • 1★ (1 OC): 5–7 dmg per Chain
+   • 2★ (2 OC): 8–10 dmg per Chain
+   • 3★ (3 OC): 11–12 dmg per Chain
+   • 4★ (4 OC): 14 dmg per Chain. Overkill grants +100% Zenny
+
+3. Slice n' Dice – 3 AP (Spread Chain Finisher)
+   • ⭐ Base: 2–6 dmg per Chain (randomly spread across enemies)
+   • 1★ (1 OC): 3–7 dmg per Chain
+   • 2★ (2 OC): 5–8 dmg per Chain
+   • 3★ (3 OC): 6–9 dmg per Chain
+   • 4★ (4 OC): 8–12 dmg per Chain. +1 base dmg per unique enemy hit
+
+4. Rupture – 2 AP (Chain-Based Bleed Trigger)
+   • ⭐ Base: Inflict 1 Bleed per Chain spent among all enemies. Remove all Chain.
+   • 1★ (1 OC): Inflict 1–2 Bleed per Chain on all enemies. Remove all Chain.
+   • 2★ (2 OC): Inflict 1–3 Bleed per Chain on all enemies. Remove all Chain.
+   • 3★ (3 OC): Inflict 1–4 Bleed per Chain on all enemies. Remove all Chain.
+   • 4★ (4 OC): Inflict 2–5 Bleed per Chain on all enemies. Remove all Chain. 
+
+
+=====================================
+🌀 UTILITY ACTIONS (v2.9)
+=====================================
+
+**Core Utility Actions have no cooldown 
+**Advanced Utility Actions gain 1 cooldown per manual Overclock
+
+CORE UTILITY 
+
+1. Dodge – 1 AP
+   • ⭐ Base: +3–5 Dodge
+   • 1★ (1 OC): +5–8 Dodge 
+   • 2★ (2 OC): +8–11 Dodge
+   • 3★ (3 OC): +13–17 Dodge
+   • 4★ (4 OC): +Dodge 22–25. Whenever you Perfect Dodge, summon a Shadow Decoy
+
+2. Flicker – 0 AP, 2 Charges per battle (Charge-Based, No Cooldown/Overclock)
+   • ⭐ Base: Avoid 5–7
+
+
+ADV UTILITY 
+
+4. Phase Drift – 1 AP
+   • ⭐ Base: +3 Dodge, gain +2 Chain
+   • 1★ (1 OC): +5 Dodge, gain +3 Chain
+   • 2★ (2 OC): +8 Dodge, gain +4 Chain
+   • 3★ (3 OC): +12 Dodge, gain +5 Chain
+   • 4★ (4 OC): +15 Dodge, gain 1 Chain for each damage dodged this turn
+
+
+CORE STARTER UTILITY 
+
+3. Deflect – 1 AP
+   • ⭐ Base: +2 Dodge, reflect 50% of damage dodged
+   • 1★ (1 OC): +4 Dodge, reflect 100% of damage dodged
+   • 2★ (2 OC): +6 Dodge, reflect 200% of damage dodged
+   • 3★ (3 OC): +8 Dodge, reflect 400% of damage dodged to all enemies
+   • 4★ (4 OC): Deflect all damage twice; bypasses Dodge
+
+
+=====================================
+✨ SPECIAL ACTIONS (v2.9)
+=====================================
+
+12. Shadow Image: Decoy – 0 AP, 1 Charge. Assign to enemy attack to activate.
+   • ⭐ Summon Decoy Image (absorbs 1 hit, gains 1 Firewall, cooldown 3 turns)
+  
+13. Shadow Image: Emulate – 0 AP, 1 Charge 
+   • ⭐ Summon Emulative Image (Repeats all actions at 25% potency. Emulative Image does not gain chain.)
+
+14. Draw Blood – 0 AP, 1 Charges
+   • ⭐ x2 current Bleed on all enemies 
+
+15. Overcharge – 1 AP, 2 Charges 
+   • ⭐ Deal 7–12 Shock, distributed randomly across all enemies. Take 1–3 Shock damage
+
+
+

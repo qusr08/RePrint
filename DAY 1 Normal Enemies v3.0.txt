@@ -1,0 +1,144 @@
+🔫 🔪 D1: Normal Enemies v3.0
+
+Updates in v2.8
+-Late day variant 2 added (scaled HP) 
+
+Updates in v2.9
+-Trigger Effects added
+-Variant 1-3 added, 1 → early-day, 2 → mid/late day
+
+**Variant 1 is the base variant
+
+======================================
+🪖 SKIV – BASE INTRO ENEMY
+======================================
+
+📊 STATS
+• variant 1 HP: 18
+• variant 2 HP: 28-32)
+• AP: 1  
+• Chain: 0  
+
+**Variant 0 deals -1 damage 
+
+🗡️ ACTIONS
+• 🥾 Strike – 1 AP  
+  → 3 or 4 dmg (random roll)
+
+• 🌀 Brace – 1 AP *(Defensive)*  
+  → Gains 4 Dodge next turn
+  
+
+======================================
+🔥 SKIV-PYRO – RECKLESS BURN
+======================================
+
+📊 STATS
+• variant 1 HP: 18
+• variant 2 HP: 28-32)
+• AP: 1  
+• Chain: 0  
+
+🗡️ ACTIONS
+• 🔥Fire Strike – 1 AP  
+  → Deals 2 or 4 Burn dmg (random roll)
+
+• 🔥🔥Pyromania – 1 AP  
+  → Deals 1-5 Burn dmg to all units, including its allies and itself. 
+  → Each unit rolls a separate instance of damage. 
+
+🧠 AI NOTES
+• High chance to start with Fire Strike and use Pyromania by turn 2 or 3.  
+
+
+======================================
+🔫 SKIV GUNNER – RANGED 
+======================================
+
+📊 STATS
+• variant 1 HP: 14 
+• variant 2 HP: 24-26
+• AP: 1  
+• Chain: 0  
+
+**Variant 0 deals -1 damage 
+
+🗡️ ACTIONS
+• 🔫 Burst Shot – 1 AP  
+  → 5 or 6 damage (random roll)
+  → Trigger Effect(!): Using Deflect on this action causes an AoE effect, dealing 50-75% Deflect dmg to all enemies
+
+• ♻️ Reload – 1 AP *(Utility)*  
+  → No damage  
+  → Always used immediately after Burst Shot  
+
+🧠 AI NOTES
+• Always alternates: Burst Shot → Reload → Burst Shot  
+• If interrupted, will still attempt Reload next opportunity
+
+
+======================================
+🔪 SKIV CUTTER – BLEEDER 
+======================================
+
+📊 STATS
+• variant 1 HP: 16 
+• variant 2 HP: 24-29
+• AP: 1  
+• Chain: 0  
+
+**Variant 0 deals -1 damage 
+
+🗡️ ACTIONS
+• 🩸 Cutthroat – 1 AP  
+  → 4-5 Bleed Damage 
+
+• 🔪 Revved Up! - 1 AP
+  → Next attack deals +2 damage.  
+• 🔪 Revved Up Again! - 1 AP
+  → Next attack deals +4 damage.  
+
+🧠 AI NOTES
+• Has a chance to use Revved up! and then Revved Up Again! in sequence. For example: Turn 1 it uses Revved Up!, then turn 2 it uses Revved Up Again! This should happen about 25% of the time it uses Revved Up! 
+
+
+=============================================
+
+🛡️ SKIV-BOT – SUPPORT/TANK ENEMY (v2.8)
+
+📊 STATS
+• variant 1 HP: 38 / Shield: 5
+• variant 2 HP: 52 / Shield: 7
+• AP: 1 per turn  
+• Shield values stack with other sources
+
+🎯 PASSIVES 
+
+🧠 DESIGN 
+• Teaches intent reading, shield breaking, and target prioritization
+
+🗡️ ACTIONS
+
+• 🛡️ Shield Up – 1 AP  
+  → Gain +5 Shield
+
+• 💥 Shield Bash – 1 AP  
+  → Deal damage equal to **current Shield value**  
+  → Requires at least 7 Shield to activate  
+  → Immediately use after acquiring 10 Shield 
+  → Cooldown: 1 turn
+  → Trigger Effect(!) Breaking the Skiv-Bot's Shield during this action causes it to enter Shutdown; inactive for (2)turns and takes x2 dmg from all sources 
+
+• 🧩 Armor Web – 1 AP *(NEW)*  
+  → All other enemies gain **+5 Shield**  
+  → Cooldown: 2 turns
+
+🧠 AI NOTES
+• Prioritizes Shield Up on turn 1.   
+• Uses Armor Web only if allies are present  
+• Can attempt Shield Bash as early as turn 2 but also on turn 3 provided its Shield is sufficient.
+
+
+==============================================
+
+

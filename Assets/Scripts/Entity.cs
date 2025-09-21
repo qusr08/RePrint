@@ -40,9 +40,7 @@ public class Entity : MonoBehaviour
 	public void Damage (int damage, List<StatusEffect> appliedEffects = null)
 	{
 		Health -= damage;
-
-		if (appliedEffects != null)
-			ApplyStatusEffects(appliedEffects);
+		ApplyStatusEffects(appliedEffects);
 	}
 
 	/// <summary>
@@ -64,8 +62,10 @@ public class Entity : MonoBehaviour
 	/// <param name="appliedEffects">The list of status effects to apply</param>
 	public void ApplyStatusEffects (List<StatusEffect> appliedEffects)
 	{
-		bool appliedEffect = false;
+		if (appliedEffects == null)
+			return;
 
+		bool appliedEffect;
 		for (int i = 0; i < appliedEffects.Count; i++)
 		{
 			appliedEffect = false;
